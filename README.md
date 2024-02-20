@@ -1,1 +1,1 @@
-# omm
+# Osnovi Matematickog Modeliranja
