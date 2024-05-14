@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Uvod}{2}{}%
+\contentsline {section}{\numberline {2}Stacionarana rešenja}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Analiza stacionarnih rešenja}{4}{}%
+\contentsline {section}{\numberline {3}Numeričko rešavanje modela i grafički prikaz}{5}{}%
+\contentsline {section}{Literatura}{5}{}%

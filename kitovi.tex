@@ -1,0 +1,318 @@
+\documentclass[a4paper]{article}
+
+\usepackage{color}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{listings}
+%\usepackage{matlab-prettifier}
+
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{url}
+
+
+%\def\d{{\fontencoding{T1}\selectfont\dj}}
+%\def\D{{\fontencoding{T1}\selectfont\DJ}}
+
+\def\dj{d\kern-0.4em\char"16\kern-0.1em}
+\def\Dj{\mbox{\raise0.3ex\hbox{-}\kern-0.4em D}}
+%\newcommand\D{D\kern-0.8em\raise0.2ex\hbox{--}\kern0.3em}
+
+%\usepackage[unicode]{hyperref}
+%\hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
+
+\lstdefinestyle{mystyle}{
+	language=Matlab,
+	basicstyle=\footnotesize,
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	frame=single,
+	tabsize=2,
+	columns=flexible,
+	showstringspaces=false
+}
+
+
+
+\renewcommand{\contentsname}{Sadržaj}
+\renewcommand{\abstractname}{Sažetak}
+
+
+
+\begin{document}
+	\title{Kitovi \\ \small{Seminarski rad u okviru kursa\\Osnovi matematičkog modeliranja\\ Matematički fakultet}}
+	
+	\author{Nataša Blagojević \\ mi20159@alas.mat.bg.ac.rs \and Lazar Lazović \\ mi20062@alas.matf.bg.ac.rs}
+	\date{14.~maj 2024.}
+	\maketitle
+	
+	\abstract{U ovom radu ćemo se upoznati sa dinamikom populacije plavih kitova i kitova perajara koristeći matematički model. Analiziramo stacionarne tačke sistema, numerički rešavamo model, istražujemo uticaj promene prirodnog priraštaja plavih kitova i uključujemo ribarenje kako bismo odredili optimalni broj brodova radi održavanja ravnoteže u populaciji kitova.
+		
+		\tableofcontents
+		
+		\newpage
+		
+	
+	\section{Uvod}
+	%\label{sec: Uvod}
+	
+	Pupulacija morskih sisara ima ključnu ulogu u održavanju ravnoteže u morskim ekosistemima. Plavi kitovi i kitovi perajari su značajni predstavnici ovih populacija, čija dinamika može biti složena i podložna različitim uticajima okoline. Međutim, aktivnost kao što je ribolov može imati značajan uticaj na ove populacije, što zahteva pažljivo istraživanje i analizu. \\
+	\\
+	U ovom radu istražujemo kako se dinamika populacije plavih kitova i kitova perijara menja kroz matematički model koji uzima u obzir faktore kao što su dostupnost hrane(planktona), međusobno nadmetanje, prirodni priraštaj i uticaj ribolova. Modeliranje ovakvih složenih sistema nam omogućava bolje razumevanje i ponašanje sisara pod različitim uslovima, kao i pružanje smernica za upravljanje i očuvanje ovih vrsta u prirodi.  \\ 
+	\\
+	Naša analiza se oslanja na sistem diferencijalnih jednačina koje opisuju promene u populacijama plavih kitova (\textit{x(t)}) i kitova perajara (\textit{y(t)}) u odnosu na vreme \textit{t}. Model uzima u obzir reprodukciju populacije, međusobno nadmetanje za hranu i prirodni priraštaj definisanih pomoću parametara koji karakteristišu ove procese. \\
+	\\
+	Cilj našeg istraživanja je da istražimo kako međusobno nadmetanje, prirodni priraštaj i ribolov utiče na samu dinamiku populacija plavih kitova i kitova perajara, kao i kako se ove promene odražavaju na stabilnost i dugoročno održavanje ovih populacija. \\ 
+	\\ 
+	U nastavku ovog rada, predstavljamo detaljnu analizu našeg matematičkog modela, rezultate simulacija za različite scenarije, kao i diskusiju o analizama za očuvanje ovih morskih sisara.
+	
+	\section{Stacionarana rešenja}
+	%\label{sec: stacionarna-resenja}
+	
+	Za pronalaženje stacionarnih rešenja modela koji opisuje dinamiku plavih kitova i kitova perajara, koristimo metod stavljanja diferencijalnih jednačina u stanje ravnoteže, gde se brzine promena populacije izjednačavaju sa nulom. \\ 
+	\\ 
+	Model je definisan na sledeći način:
+	
+	\begin{equation}
+		\frac{dx}{dt} = 0.05x(1 - \frac{x}{250000}) - axy
+	\end{equation}
+	
+	\begin{equation}
+		\frac{dy}{dt} = 0.08y(1 - \frac{y}{400000}) - axy
+	\end{equation}
+	\\
+	Gde nam \textit{x} i \textit{y} predstavljaju populacije plavih kitova i kitova perajara, dok je \textit{a} parametar koji nam opisuje uticaj međusobnog nadmetanja i ribarenja.\\ 
+	\\
+	Kako bismo pronašli stacionarna rešenja, potrebno je da obe jednačine izjednačimo sa nulom, jer nam stacionarna rešenja predstavljaju ona rešenja u kojima se populacija kitova ne menja tokom vremena.\\
+	
+	\newpage
+	
+	Za zadati parametar $a = 10^{-8} $ i za zadate početne uslove da je na početku 6000 jedinki plavog kita i 60000 jedinki kita perajara. Rešavamo početni sistem na malopređašnji opisani način. \\ 
+	\\
+
+	Precizna definicija početnih uslova (*): \\
+	\[
+		a = 10^{-8}
+	\]
+	\[
+		x(0) = 6000
+	\]
+
+	\[
+		y(0) = 60 000
+	\]
+	
+	Izjednačavanje obe jednačine sa 0:
+	
+	\begin{equation}
+		\frac{dx}{dt} = 0 
+	\end{equation}
+
+	\begin{equation}
+		\frac{dy}{dt} = 0
+	\end{equation}
+	
+	Dobijamo sledeće sisteme:
+	
+	\begin{equation}
+		0.05x(1 - \frac{x}{250000}) - axy = 0
+	\end{equation}
+	
+	\begin{equation}
+		0.08y(1 - \frac{y}{400000}) - axy = 0
+	\end{equation}
+		
+	Potom dobijamo:
+	
+	\[
+		x(0.05(1 - \frac{x}{250000}) - ay) = 0
+	\]
+	
+	\[
+		y(0.08(1 - \frac{y}{400000}) - ax) = 0
+	\]
+	
+	Odnosno: 
+	
+	\begin{equation}
+		x = 0   \vee    0.05 \cdot (1 - \frac{x}{250000}) - ay = 0
+	\end{equation}
+
+	\begin{equation}
+		y = 0   \vee    0.08 \cdot (1 - \frac{y}{400000}) - ax = 0
+	\end{equation}
+		
+		
+	Jedno stacionarno rešenje nam predstavlja par $(x, y) = (0, 0)$, a nas zanima drugo stacionarno rešenje koje se dobija rešavanjem sistema:
+	
+	\[
+		0.05 \cdot (1 - \frac{x}{250000}) - ay = 0
+	\]
+	
+	i 
+	
+	\[
+		0.08 \cdot (1 - \frac{y}{400000}) - ax = 0
+	\]
+	
+	Zamenjujemo parametar a sa vrednošću: $a = 10^{-8}$ i dobijamo sledeće jednačine:
+	
+	\begin{equation}
+		0.05 \cdot (1 - \frac{x}{250000}) - 10^{-8} y = 0
+	\end{equation}
+
+	\begin{equation}
+		0.08 \cdot (1 - \frac{y}{400000}) - 10^{-8} x = 0
+	\end{equation}
+
+	\newpage
+
+	Iz jednačine (7) izrazimo y:
+	
+	\[
+		y = 10^8 \cdot 0.05 \cdot (1 - \frac{x}{250000})
+	\]
+
+	Kada malo bolje raspišemo i sredimo izraz za \textit{y} dobijamo sledeću jednačinu: 
+	
+	\begin{equation}
+		y = 5 \cdot 10^6 - 20x
+	\end{equation}
+
+	Potom izraženo y iz jednačine (11) uvrstimo u jednačinu (10) i dobijamo sledeće: 
+	
+	\[
+		0.08 \cdot (1 - \frac{5 \cdot 10^6 - 20x}{400000}) - 10^{-8} x = 0  
+	\]
+	
+	Nakon detaljnijeg matematičkog računa dobijamo sledeću jednakost:
+	
+	\begin{equation}
+		399x = 92 \cdot 10^6
+	\end{equation} 
+
+	Odatle dobijamo da je $ x \approx 230576 $. Kada ovo rešenje uvrstimo u jednačinu (11) dobijamo približnu vrednost za y, a to je $ y \approx 388480 $.  
+	
+	\subsection{Analiza stacionarnih rešenja}
+	
+	Kao jedno stacionarno rešenje dobili smo par $ (x, y) = (0, 0)$. Ovo rešenje znači da nijedna populacija nema prisustva u ekosistemu. To može ukazivati na izumiranje obe vrste kitova ili na nepovoljne uslove sredine koje ne podržavaju njihov opstanak. Ovo stacionarno rešenje je trivijalno i stoga ne predstavlja realističan scenarijo za ekološki sistem.\\
+	\\
+	Drugo stacionarno rešenje koje smo dobili je $ x \approx 230576$ i $ y \approx 388480$. Ovo rešenje predstavlja situaciju u kojoj su populacije plavih kitova i kitova perajara prisutne u ekosistemu, odnosno da postoji neka određena ravnoteža između kitova.\\
+	\\
+	Sada proveravamo koja su to rešenja stabilna. To cemo uraditi uz pomoć MATLAB-a u kojem ćemo napisati kod koji nam računa matricu, na osnovu koje ćemo utvrditi da li je naše malopređašnje rešenje stabilno ili nestabilno.
+	
+	\begin{center}
+		\begin{lstlisting}[language=Matlab]
+		function analyze_stability(stationary_point, a)
+		% Izdvajanje koordinata stacionarnog resenja
+		x_star = stationary_point(1);
+		y_star = stationary_point(2);
+		
+		% Izracunavanje Zordanove matrice u stacionarnoj tacki
+		J = [0.05*(1 - 2*x_star/250000) - a*y_star, -a*x_star;
+		-a*y_star, 0.08*(1 - 2*y_star/400000) - a*x_star];
+		
+		% Procena sopstvenih vrednosti Zordanove matrice
+		eigenvalues = eig(J);
+		
+		% Prikaz rezultata
+		disp('Zordanova matrica:');
+		disp(J);
+		disp('Sopstvene vrednosti:');
+		disp(eigenvalues);
+		
+		% Provera stabilnosti
+		if all(real(eigenvalues) < 0)
+		disp('Stacionarno resenje je stabilno.');
+		else
+		disp('Stacionarno resenje je nestabilno.');
+		end
+		end
+		
+		\end{lstlisting}
+	\end{center}	
+		
+	Funkcija \textbf{analyse\_stability} prvo izračunava Žordanovu matricu u datoj stacionarnoj tački i potom procenjuje sopstvene vrednosti i utvrđuje stabilnost rešenja. Pozivamo je na sledeći način:\\ 
+	\\
+	
+	\[
+		analyse\_stability([230576, 388480], 1e-8);
+	\]
+	
+	
+	Nakon izvršenja analize stabilnosti, dobijamo sledeću Žordanovu matricu i sopstvene vrednosti u tački stacionarnog rešenja ((230576, 388480)), za dati parametar ($a = 10^{-8}$):
+	\[
+		\begin{bmatrix}
+			-0.0461 & -0.0023 \\
+			-0.0038 & -0.0777 \\
+		\end{bmatrix} 
+	\]	
+	
+	i sledeće sopstevene vrednosti:
+	
+	\[
+		\lambda_1 \approx -0.0458
+	\]
+	
+	\[
+		\lambda_2 \approx -0.780
+	\]
+	
+	Oba sopstvena vektora su realna i negativna, što ukazuje na to da su obe sopstvene vrednosti negativne. Odatle zaključujemo da je stacionarno rešenje $(230576, 388480)$ stabilno. \\
+	\\ 
+	To znači da u dugoročnom stabilnom stanju da se populacije plavih kitova i kitova perajara održavaju na nivou koji odgovara tački stacionarnog rešenja. Sistem će se vratiti na ovo stabilno stanje nakon bilo kakvih manjih poremećaja, što ukazuje na ravnotežu između reprodukcije, smrtnosti i drugih faktora koji utiču na populaciju kitova.
+	
+		
+	\section{Numeričko rešavanje modela i grafički prikaz}
+	\label{sec:nrmgp}	
+	
+	
+	Kako bismo numerički rešili model za parametre $a = 10^{-8}$ i $a = 10^{-6}$, potrebno ih je uvrstiti u diferencijalne jednačine i potom primenom numeričkih metoda rešiti sistem diferencijalnih jednačina. Zatim ćemo grafički prikazati broj jedinki obe vrste kitova u zavisnosi od vremena i nakon toga ćemo diskutovati o ponalanju sistema kada $t \to \infty$. 
+		
+		
+		
+		
+		
+		
+		
+	\addcontentsline{toc}{section}{Literatura}
+	\appendix
+		
+		
+	\begin{thebibliography}{9}
+		\bibitem{kitovi}
+			
+			
+	\end{thebibliography}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	\end{document}
