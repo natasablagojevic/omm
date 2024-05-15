@@ -1,0 +1,46 @@
+
+----- stavka B -----
+
+Kako nam parametar a predstavlja medjusobno nadmetanje izmedju vrsta, razlicite vrednosti 
+rezultiraju razlicitim dinamikama populacije. Manja vrednost nam (1e-8) nam implicira na 
+manje nadmetanje izmedju vrsta sto za posledicu ima da se obe vrste populacije kitova povecava.
+Sa druge strane za (1e-6) nam ukazuje na intezivnije medjusobno nadmetanje, sto za posledicu
+ima manji rast populacije.
+
+Detaljna analiza za parametre
+
+a = 1e-8:
+	Plavi kit: broj kitova pokazuje postepeno povecanje populacije tokom vremena. Kako je 
+						 nadmetanje izmedju vrsta slabo, plavi kitovi imaju dovoljno resursa za reprodukciju
+						 i rast populacije se desava relativno stabilno.
+						 
+	Kitovi perajari: broj kitova perajara takodje se postepeno povecava tokom vremena. Kako im je
+									 nadmetanje sa plavim kitovima slabo, to omogucava rast populacije. (slicno kao i kod plavih kitova.)
+									 
+	
+	- obe vrste imaju tendeciju da se stabilizuju i postignu relativno visok ukupan broj populacije, jer 
+		nadmetanje sa drugom vrstom nije dovoljno snazno da ozbiljno ogranici rast njihovih populacija.
+		
+	- ocekuje se da ce se broj populacije kod obe vrste rasti tokom veremena, mozda sanekim oscilacijama,
+		ali u osnovu stabilno i bez izrazenih padova u broju populacije.
+	
+	
+a = 1e-6:
+	Plavi kitovi: broj plavih kitova pokazuje blago povecanje populacije, ali sporije nego kada je
+								parametar a bio manji. Nadmetanje ima jaci uticaj na plave kitove i time se 
+								ogranicava njihov rast populacije.
+	
+	Kitovi perajara: broj kitova pokazuje postepeno povecanje populacije, ali opet sporije nego kada
+									 je parametar a bio manji. Sada je nadmetanje izmedju kitova perajara i plavih kitova
+									 jace 
+									 
+	- medjusobno nadmetanje izmedju vrsta je intezivnije i to dovodi do sporijeg rasta populacije kod
+		obe vrste. Ograniceni resursi kao sto je hrana u ovom slucaju uzrokuje da populacije ne rastu 
+		tako brzo kako bi inace trebale. Takodje, dolazi do povecanje konkurencije za resurse i to dovodi do
+		smanjenja broja jedinki u populaciji ili cak do stabilizacije na nekom odredjenom nivou. 
+		
+		
+--- jos malo detaljno da bude
+--- ubaciti slike 
+
+
