@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.12)  14 MAY 2024 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.12)  28 MAY 2024 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -147,284 +147,658 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box54
-)
-(./kitovi.aux)
-\openout1 = `kitovi.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen154
-\scratchbox=\box55
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen155
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen154
+\Hy@linkcounter=\count279
+\Hy@pagecounter=\count280
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count281
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count282
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen155
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count283
+\Field@Width=\dimen156
+\Fld@charsize=\dimen157
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box54
+)
+(./kitovi.aux
+
+LaTeX Warning: Label `slika1: uticaj6' multiply defined.
+
+
+LaTeX Warning: Label `slika2: uticaj7' multiply defined.
+
+)
+\openout1 = `kitovi.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count290
+\scratchdimen=\dimen158
+\scratchbox=\box55
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen159
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count286
+\c@lstlisting=\count296
+Package hyperref Info: Link coloring ON on input line 34.
 
-(./kitovi.toc)
-\tf@toc=\write3
-\openout3 = `kitovi.toc'.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count297
+)
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
+
+(./kitovi.out) (./kitovi.out)
+\@outlinefile=\write3
+\openout3 = `kitovi.out'.
+
+ (./kitovi.toc)
+\tf@toc=\write4
+\openout4 = `kitovi.toc'.
 
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 62--71
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--71
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
  []
 
 
-Overfull \hbox (10.30267pt too wide) in paragraph at lines 62--71
+Overfull \hbox (10.30267pt too wide) in paragraph at lines 51--60
 \OT1/cmr/m/n/9 odnosu na vreme \OT1/cmr/m/it/9 t\OT1/cmr/m/n/9 . Model uz-ima u
  obzir re-pro-duk-ciju pop-u-lacije, med^^Vusobno
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--71
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
  []
 
 
-Overfull \hbox (6.3918pt too wide) in paragraph at lines 62--71
+Overfull \hbox (6.3918pt too wide) in paragraph at lines 51--60
 \OT1/cmr/m/n/9 Cilj na^^Tseg is-tra^^Tzivanja je da is-tra^^Tzimo kako med^^Vus
 obno nad-metanje, prirodni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--71
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
 
  []
 
 
-Overfull \hbox (0.89705pt too wide) in paragraph at lines 62--71
+Overfull \hbox (0.89705pt too wide) in paragraph at lines 51--60
 \OT1/cmr/m/n/9 U nas-tavku ovog rada, pred-stavl-jamo de-taljnu anal-izu na^^Ts
 eg matemati^^Tckog
  []
 
 
-Overfull \hbox (7.05983pt too wide) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+
+ []
+
+[2]
+Overfull \hbox (7.05983pt too wide) in paragraph at lines 89--92
 \OT1/cmr/m/n/9 ki-tova i ki-tova per-a-jara, ko-ris-timo metod stavl-janja dife
 r-en-ci-jal-nih jedna^^Tcina
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--90
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--90
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-Overfull \hbox (54.65121pt too wide) in paragraph at lines 209--210
-[][][][][][][][][][][][][] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
  []
 
 
-Overfull \hbox (38.00116pt too wide) in paragraph at lines 210--211
-[][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
  []
 
 
-Overfull \hbox (93.50134pt too wide) in paragraph at lines 214--215
-[][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
  []
 
 
-Overfull \hbox (93.50134pt too wide) in paragraph at lines 215--216
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
  []
 
 
-Overfull \hbox (71.30127pt too wide) in paragraph at lines 216--218
-[][][][][][][][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
  []
 
 
-Overfull \hbox (60.20123pt too wide) in paragraph at lines 218--219
-[][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
  []
 
 [4]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
-28.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 228.
-
-Overfull \hbox (21.3511pt too wide) in paragraph at lines 229--230
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (32.45114pt too wide) in paragraph at lines 231--232
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Overfull \hbox (0.27655pt too wide) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Overfull \hbox (0.27655pt too wide) in paragraph at lines 272--273
 \OT1/cmr/m/n/9 tricu i sop-stvene vred-nosti u ta^^Tcki sta-cionarnog re^^Tsenj
 a ((230576, 388480)),
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--267
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 290--295
 
  []
 
 
-Overfull \hbox (5.54568pt too wide) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 290--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+
+Overfull \hbox (2.7839pt too wide) in paragraph at lines 313--316
+\OT1/cmr/m/n/9 Razmotirmo jo^^Ts jedno sta-cionarno re^^Tsenje: $(\OML/cmm/m/it
+/9 x; y\OT1/cmr/m/n/9 ) = (0\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 400000)$. Ra^^Tcun
+amo
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
+
+ []
+
+
+Overfull \hbox (5.54568pt too wide) in paragraph at lines 347--348
 \OT1/cmr/m/n/9 meri^^Tckih metoda re^^Tsiti sis-tem difer-en-ci-jal-nih jedna^^
 Tcina. Za-tim ^^Scemo grafi^^Tcki
  []
 
-[5] (./kitovi.aux) )
+<a8.png, id=130, 294.8616pt x 238.9728pt>
+File: a8.png Graphic file (type png)
+<use a8.png>
+Package pdftex.def Info: a8.png  used on input line 353.
+(pdftex.def)             Requested size: 155.24895pt x 125.81993pt.
+<a6.png, id=131, 294.8616pt x 238.9728pt>
+File: a6.png Graphic file (type png)
+<use a6.png>
+Package pdftex.def Info: a6.png  used on input line 360.
+(pdftex.def)             Requested size: 155.24895pt x 125.81993pt.
+[7 <./a8.png (PNG copy)> <./a6.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 370.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 370.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 370.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 375.
+
+
+Overfull \hbox (4.48206pt too wide) in paragraph at lines 384--389
+\OT1/cmr/m/n/9 Prirodni prira^^Tstaj pred-stavlja klju^^Tcni fak-tor u di-nam-i
+ci pop-u-lacija u prirodi.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
+
+ []
+
+
+Overfull \hbox (8.61813pt too wide) in paragraph at lines 384--389
+\OT1/cmr/m/n/9 Slede^^Sca jedna^^Tcina pred-stavlja matemati^^Tcki model koji u
+ odnosu na prethodni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
+ []
+
+[8]
+<uticaj2.png, id=149, 393.1488pt x 317.5062pt>
+File: uticaj2.png Graphic file (type png)
+<use uticaj2.png>
+Package pdftex.def Info: uticaj2.png  used on input line 456.
+(pdftex.def)             Requested size: 155.24895pt x 125.37723pt.
+<uticaj3.png, id=150, 336.7782pt x 272.6988pt>
+File: uticaj3.png Graphic file (type png)
+<use uticaj3.png>
+Package pdftex.def Info: uticaj3.png  used on input line 472.
+(pdftex.def)             Requested size: 155.24895pt x 125.71342pt.
+<uticaj4.png, id=151, 393.1488pt x 317.5062pt>
+File: uticaj4.png Graphic file (type png)
+<use uticaj4.png>
+Package pdftex.def Info: uticaj4.png  used on input line 479.
+(pdftex.def)             Requested size: 155.24895pt x 125.37723pt.
+
+Overfull \hbox (14.78061pt too wide) in paragraph at lines 485--486
+[]\OT1/cmr/m/n/9 Kod stope prirodnog prira^^Tstaja od 3% (Slika 4) i 4% (Slika 
+5), prime^^Scujemo
+ []
+
+[9 <./uticaj2.png (PNG copy)> <./uticaj3.png (PNG copy)> <./uticaj4.png (PNG co
+py)>]
+<uticaj6.png, id=160, 393.1488pt x 317.5062pt>
+File: uticaj6.png Graphic file (type png)
+<use uticaj6.png>
+Package pdftex.def Info: uticaj6.png  used on input line 495.
+(pdftex.def)             Requested size: 155.24895pt x 125.37723pt.
+<uticaj7.png, id=161, 393.1488pt x 317.5062pt>
+File: uticaj7.png Graphic file (type png)
+<use uticaj7.png>
+Package pdftex.def Info: uticaj7.png  used on input line 502.
+(pdftex.def)             Requested size: 155.24895pt x 125.37723pt.
+<plaviQ.png, id=162, 393.1488pt x 317.5062pt>
+File: plaviQ.png Graphic file (type png)
+<use plaviQ.png>
+Package pdftex.def Info: plaviQ.png  used on input line 524.
+(pdftex.def)             Requested size: 155.24895pt x 125.37723pt.
+
+Underfull \hbox (badness 1448) in paragraph at lines 525--525
+[]\OT1/cmr/m/n/10 Slika 8: []Grafik stopa prirod-nih
+ []
+
+<perajariQ.png, id=163, 393.1488pt x 317.5062pt>
+File: perajariQ.png Graphic file (type png)
+<use perajariQ.png>
+Package pdftex.def Info: perajariQ.png  used on input line 531.
+(pdftex.def)             Requested size: 155.24895pt x 125.37723pt.
+
+Underfull \hbox (badness 1448) in paragraph at lines 532--532
+[]\OT1/cmr/m/n/10 Slika 9: []Grafik stopa prirod-nih
+ []
+
+
+Overfull \hbox (10.96188pt too wide) in paragraph at lines 537--538
+\OT1/cmr/m/n/9 stope prirodnog prira^^Tstaja plavih ki-tova vodi ka ve^^Scoj po
+p-u-laciji i pove^^Scanjem
+ []
+
+[10 <./uticaj6.png (PNG copy)> <./uticaj7.png (PNG copy)> <./plaviQ.png (PNG co
+py)> <./perajariQ.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 550--552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 723--726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--726
+
+ []
+
+
+Overfull \hbox (5.9778pt too wide) in paragraph at lines 729--730
+\OT1/cmr/m/n/9 neko-liko ravnote^^Tznih ta^^Tcaka. Na primer, ta^^Tcke $(250000
+\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 0)$ i $(0\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 4000
+00)$
+ []
+
+
+Overfull \hbox (8.1586pt too wide) in paragraph at lines 733--734
+\OT1/cmr/m/n/9 slu^^Tcajeva, ve^^Sci prirodni prira^^Tstaj do-pri-nosi sta-bil-
+nosti pop-u-lacije plavih
+ []
+
+
+Overfull \hbox (4.62247pt too wide) in paragraph at lines 733--734
+\OT1/cmr/m/n/9 ki-tova, ali ne mo^^Tze u pt-punosti neu-tral-isati neg-a-tivne 
+efekte konkuren-
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 757--758
+\OT1/cmtt/m/n/9 bg . ac . rs / []zorica . drazic / OMM / 04 % 20-[] % 20OMM % 2
+0-[] % 20populacioni .
+ []
+
+[14] (./kitovi.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `kitovi.out' has not changed.
+(rerunfilecheck)             Checksum: 7BDEC4092CCE51DF1A19F7C7127E7B34;2518.
+ )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 52 ({)
+### simple group (level 1) entered at line 41 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4999 strings out of 480247
- 74105 string characters out of 5896151
- 567285 words of memory out of 5000000
- 22890 multiletter control sequences out of 15000+600000
- 476234 words of font info for 52 fonts, out of 8000000 for 9000
+ 10431 strings out of 480247
+ 161050 string characters out of 5896151
+ 457206 words of memory out of 5000000
+ 28176 multiletter control sequences out of 15000+600000
+ 476291 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,7n,67p,462b,2250s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/natasa/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/
-ec/tcrm0900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti9.pfb>
-Output written on kitovi.pdf (5 pages, 151680 bytes).
+ 60i,8n,63p,622b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on kitovi.pdf (14 pages, 494574 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

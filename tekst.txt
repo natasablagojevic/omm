@@ -43,4 +43,19 @@ a = 1e-6:
 --- jos malo detaljno da bude
 --- ubaciti slike 
 
+--------------------------------------------------------------------------------------------------------------------
+
+\subsection{Detaljna analiza za $a = 10^{-8}$}
+	\label{sec: Dmodel_e8}
+	
+	Za \textbf{plave kitove} (plava kriva), vidimo postepeno povećanje populacije tokom vremena. Kako je nadmetanje između vrsta slabo, plavi kitovi imaju dovoljno resursa za reprodukciju i rast populacije se dešava relativno stabilno. Dok kod \textbf{kitova perajara} (crvena kriva), vidimo da se takođe broj populacije povećava tokom vremena. Kako im je nadmetanje sa plavim kitovima slabo, to omogućava rast populacije.
+	\\
+	Obe vrste imaju tendenciju da se stabilizuju i postignu relativno velik broj populacije, jer nadmetanje sa drugom vrstom nije dovoljno snažno da ozbiljno ograniči rast njihovih populacija.
+		
+	\subsection{Detaljna analiza za $a = 10^{-6}$}
+	\label{sec: Dmodel_e6}
+	
+	Kod plavih kitova, vidimo da se broj populacije blago poveća, a onda krene da opada. Ovo opadanje ukazuje na smanjenje populacije tokom vremena, jer nadmetanje ima jači uticaj na plave kitove i time se ograničava njihov rast tokom vremena. 
+	
+
 
